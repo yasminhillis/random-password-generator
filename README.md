@@ -4,7 +4,7 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try it out](https://vocal-puffpuff-4bb890.netlify.app)
+🔗 [Click here to try it out](https://random-password-generator-yasmin.netlify.app/)
 
 ---
 
@@ -32,7 +32,7 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 - HTML5
 - CSS3 (Flexbox + Media Queries)
 - Vanilla JavaScript
-- Google Fonts & Font Awesome
+- Google Fonts
 
 ---
 
@@ -40,7 +40,7 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/random-password-generator.git
+   git clone https://github.com/yasminhillis/random-password-generator.git
    cd random-password-generator
    ```
 
@@ -49,8 +49,6 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 ---
 
 ## 🐛 Known Issues
-
-- Copy confirmation message overwrites the password temporarily
 - No persistent state or history of generated passwords
 
 ---
@@ -63,15 +61,9 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).
-
----
-
 ## 🙌 Credits
 
-Made with 💜 by [Your Name] – inspired by security best practices.
+Made with 💜 by Yasmin Hillis
 
 ---
 
