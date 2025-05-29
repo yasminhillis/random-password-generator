@@ -12,7 +12,7 @@ Generate secure and customizable passwords effortlessly with this simple and bea
 
 | Desktop | Mobile |
 |--------|--------|
-| ![Desktop View](screenshot.png) | ![Mobile View](./screenshots/mobile.png) |
+| ![Desktop View](desktop-view.png) | ![Mobile View](mobile-view.png) |
 
 ---
 
