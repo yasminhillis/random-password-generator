@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4314a7bb29.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <div class="main-container">
+        <div id="lock-icon">🔒🗝️</div>
+        <h3 class="heading">Generate a <span class="highlight">random password</span></h3>
+        <p class="supporting-text">Never use an insecure password again.</p>
+        <div class="password-section">
+            <div class="password-section-1">
+                <div>
+                    <textarea readonly id="generated-password-1"></textarea> 
+                </div>
+    
+                <div>
+                    <button id="copy-btn-1"><i class="fa-solid fa-copy"></i></button>
+                </div>
+            </div>
+
+            <div class="password-section-2">
+                <div>
+                    <textarea readonly id="generated-password-2"></textarea> 
+                </div>
+    
+                <div>
+                    <button id="copy-btn-2"><i class="fa-solid fa-copy"></i></button>
+                </div>
+            </div>  
+        </div>
+        <div class="password-strength">
+            <p id="strength">Strength:</p>
+        </div>
+
+
+        <div class="options-section">
+            <div class="password-length"> 
+                <label>Password Length:</label>
+                <span id="pwd-length"></span>
+            </div>
+            <input type="range" name="" id="password-range" min="10" max="15" value="12">
+
+            <div class="checkbox-container">
+                <div>
+                    <input type="checkbox" name="" id="uppercase"> 
+                    <label for="uppercase">Include uppercase</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="" id="numbers">
+                    <label for="numbers">Include numbers</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" name="" id="symbols">  
+                    <label for="symbols">Include symbols</label>
+                </div>
+            </div> 
+        </div>
+
+        <button id="generate-passwords">Generate passwords</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
